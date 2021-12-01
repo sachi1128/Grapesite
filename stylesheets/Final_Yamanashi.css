@@ -1,0 +1,221 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/* -------------------------------------------------------------- */
+/* --------------------------header----------------------------- */
+header{
+    background-image: url(images/header_grape.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 164px;
+    width: 100%;
+    min-width: 880px;
+    margin: 0;
+}
+#top-title{
+    width: 300px;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    background-color: #c8c6ca9c;
+    color: white;
+    border: solid 2px #2c103de5;
+    
+}
+
+#ex_out{
+    margin: 0;
+    width: 100px;
+}
+#ex_out ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+#ex_out li a{
+    display: block;
+    background-color: #c8c6ca9c;
+    height: 24px;
+}
+#ex_out li{
+    width: 100%;
+}
+#ex_out a{
+    color: #7b07ff;
+    font-size: 15px;
+    font-weight: bold;
+}
+#ex_out a:hover{
+    color:#fff;
+    border: 1px solid #000000;
+    background-color: #4f1da0;
+}
+#container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+/* -------------------------------------------------------------- */
+/* --------------------------sub_conteiner---------------------- */
+#sub_container{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* ------------------------aside開始---------------------------------- */
+aside{
+    width: 40%;
+    min-width: 250px;
+    display: flex;
+    padding:5px;
+    margin: 10px;
+    border: 1px solid purple;
+}
+#Variety{
+    text-align: center;
+    margin-right: 10px;
+}
+#Variety li{
+    font-weight: bold;
+    background-color: #8f67d1;
+}
+.rank{
+    display: flex;
+}
+.rank p{
+    text-align: left;
+    font-size: 13px;
+}
+.rank img{
+    width: 150px;
+    height: 150px;
+    margin: 30px 3px 3px 3px;
+}
+/* -------------------------------main開始--------------------------------- */
+main{
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+}
+/* -----------------------------introduction----------------------------- */
+#introduction h1{
+    text-align: left;
+    background-color: #007563;
+    padding: 5px 10px;
+    margin: 10px 15px;
+    
+}
+.subject{
+    border-left:4px solid white;
+    padding-left: 10px;
+}
+/* ------------------------------about------------------------------- */
+#about{
+    display: block;
+}
+
+
+#about img{
+    display: block;
+    
+    margin: 30px auto;
+    width: 500px;
+    height: 300px;
+}
+figure{
+    text-align: center;
+    font-size: 10px;
+}
+
+.top-heading{
+    border-bottom:2px solid rgba(20, 165, 20, 0.808) ;
+}
+.top-heading span{
+    padding-left: 10px;
+    border-left: 3px solid #000000;
+}
+.sub-heading{
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: rgba(255, 248, 248, 0.849);
+    border: 1px solid #f4f4f4;
+}
+#Yamanashi-area{
+    display: block;
+}
+#Yamanashi-harvest{
+    display: block;
+}
+#Yamanashi-shipment{
+    display: block;
+}
+
+/* -----------------------------アンケート----------------------------- */
+#last{
+    background-image: url(images/grape_home2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+
+}
+#research{
+    
+    background-color: rgba(182, 194, 184, 0.945);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+#research h3{
+    font-weight: bold;
+    border: 2px solid #66cf3c;
+    border-radius: 5px; 
+    background-color: #fff;
+    margin: auto;
+
+}
+.research-comment{
+    width: max-content;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 2px solid #6102b9;
+    border-radius: 5px; 
+}
+
+.inputbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textbox{
+    display: block;
+    margin:40px auto;
+    
+}
+.button{
+    margin: 10px;
+    margin-top: 40px;
+}
+
+
+
+/* ---------------------------footer---------------------------- */
+footer{
+    padding: 10px;
+    border-top:1px solid gray ;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.322);
+}
