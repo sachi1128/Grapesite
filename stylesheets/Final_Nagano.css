@@ -5,6 +5,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 #top-title{
     width: 300px;
