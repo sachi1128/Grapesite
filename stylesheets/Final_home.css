@@ -30,6 +30,7 @@ body{
 }
 .top-category{
     padding: 90px 0px;
+    font-family: 'Playfair Display', serif;
 }
 #top-title{
     width: 500px;
@@ -39,7 +40,6 @@ body{
     background-color: #c8c6ca9c;
     color: white;
     margin-top: 100px;
-    font-family: 'Playfair Display', serif;
 }
 .top-question{
     text-align: center;
